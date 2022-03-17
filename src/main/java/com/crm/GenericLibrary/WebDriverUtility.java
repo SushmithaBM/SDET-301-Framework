@@ -282,10 +282,10 @@ public class WebDriverUtility {
 		 
 		 TakesScreenshot ts = (TakesScreenshot)driver;
 		 File src = ts.getScreenshotAs(OutputType.FILE);
-		 String path = "./Screenshot/"+screenShotName+".png";
+		 String path = ".\\Screenshot\\"+screenShotName+".png";
 		 File dst = new File(path);
 		 Files.copy(src, dst);
-		 return path;
+		 return dst.getAbsolutePath();
 		 
 	 }
 	 

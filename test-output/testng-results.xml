@@ -17,33 +17,33 @@
       <![CDATA[=====Database close successful=====]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-16T22:11:46 IST" name="Default suite" finished-at="2022-03-16T22:13:22 IST" duration-ms="95931">
+  <suite started-at="2022-03-17T10:55:28 IST" name="Default suite" finished-at="2022-03-17T10:56:25 IST" duration-ms="56488">
     <groups>
       <group name="smokeSuite">
         <method signature="CreatOrgWithBaseclassTest.createOrgWithBaseclass()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" name="createOrgWithBaseclass" class="com.crm.OrganizationTests.CreatOrgWithBaseclassTest"/>
       </group> <!-- smokeSuite -->
     </groups>
-    <test started-at="2022-03-16T22:11:46 IST" name="Default test" finished-at="2022-03-16T22:13:22 IST" duration-ms="95931">
+    <test started-at="2022-03-17T10:55:28 IST" name="Default test" finished-at="2022-03-17T10:56:25 IST" duration-ms="56488">
       <class name="com.crm.OrganizationTests.CreatOrgWithBaseclassTest">
-        <test-method is-config="true" signature="connectDataBase()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:11:46 IST" name="connectDataBase" finished-at="2022-03-16T22:11:46 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="connectDataBase()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:55:28 IST" name="connectDataBase" finished-at="2022-03-17T10:55:28 IST" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======db connection successful======]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectDataBase -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:11:47 IST" name="launchTheBrowser" finished-at="2022-03-16T22:12:30 IST" duration-ms="43520" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:55:29 IST" name="launchTheBrowser" finished-at="2022-03-17T10:55:45 IST" duration-ms="15664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:12:31 IST" name="login" finished-at="2022-03-16T22:12:54 IST" duration-ms="23204" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:55:45 IST" name="login" finished-at="2022-03-17T10:56:05 IST" duration-ms="19747" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createOrgWithBaseclass()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:12:54 IST" name="createOrgWithBaseclass" finished-at="2022-03-16T22:13:15 IST" duration-ms="21508" status="FAIL">
+        <test-method signature="createOrgWithBaseclass()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:56:05 IST" name="createOrgWithBaseclass" finished-at="2022-03-17T10:56:21 IST" duration-ms="16705" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -87,21 +87,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgWithBaseclass -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:13:18 IST" name="logout" finished-at="2022-03-16T22:13:21 IST" duration-ms="3029" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:56:22 IST" name="logout" finished-at="2022-03-17T10:56:24 IST" duration-ms="2648" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Logout successfull=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:13:21 IST" name="closeBrowser" finished-at="2022-03-16T22:13:22 IST" duration-ms="999" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:56:24 IST" name="closeBrowser" finished-at="2022-03-17T10:56:25 IST" duration-ms="353" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====browser close successfull=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDb()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-16T22:13:23 IST" name="closeDb" finished-at="2022-03-16T22:13:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDb()[pri:0, instance:com.crm.OrganizationTests.CreatOrgWithBaseclassTest@54bff557]" started-at="2022-03-17T10:56:25 IST" name="closeDb" finished-at="2022-03-17T10:56:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Database close successful=====]]>
