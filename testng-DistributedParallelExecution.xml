@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite" >
+<!-- <groups>
+<run>
+   <include name="smokeSuite"/>
+</run>
+</groups> -->
+  <test thread-count="2"  parallel="tests" name="Test-Runner1">
+    <classes>
+      <class name="com.crm.OrganizationTests.CreateOrgIndTypeWithBaseclassTest"/>
+      <class name="com.crm.OrganizationTests.CreatOrgWithBaseclassTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2"  parallel="tests" name="Test-Runner2">
+    <classes>
+      <class name="com.crm.ContactsTests.CreateContactOrgWithBaseClassTest"/>
+      <class name="com.crm.ContactsTests.CreateContactWithBaseClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
